@@ -9,6 +9,7 @@
       :root {
         --column-width: 52rem;
         font-family: sans;
+        --xylem-blue: #29d;
       }
 
       main > section {
@@ -23,19 +24,13 @@
       }
 
       h1 svg {
-        fill: currentColor;
+        fill: var(--xylem-blue);
         vertical-align: middle;
       }
 
       @media (prefers-color-scheme: light) {
         :root {
           background: #ffc;
-          --xylem-blue: #29d;
-        }
-
-        h1 svg {
-          fill: var(--xylem-blue);
-          vertical-align: middle;
         }
       }
     </style>
